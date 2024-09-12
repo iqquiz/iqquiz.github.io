@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQ Test</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #00A86B;
+            --text-color: #333;
+            --accent-color: #1E3A8A;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem 0;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        main {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            padding: 2rem 0;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: var(--accent-color);
+        }
+        
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .btn {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.7rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            font-weight: 700;
+            transition: background-color 0.3s ease;
+        }
+        
+        .btn:hover {
+            background-color: #008c59;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin-top: 1.5rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        li::before {
+            content: "•";
+            color: var(--primary-color);
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+        
+        .image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .image img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            main {
+                grid-template-columns: 1fr 1fr;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <h2>IQ Test</h2>
+            <a href="https://www.lnkmeup.com/view.php?id=5537423&pub=3107100" class="btn">Start IQ Test</a>
+        </div>
+    </header>
+    <main class="container">
+        <div class="content">
+            <h1>The Average IQ Score of Individuals Is Between the 70-130 Range, and the Highest Recorded Score Was Between 250-300</h1>
+            <p>Take this IQ test and check what is your IQ Score</p>
+            <a href="https://www.lnkmeup.com/view.php?id=5537423&pub=3107100" class="btn">Start IQ Test</a>
+            <ul>
+                <li>20 Questions</li>
+                <li>Created by the IQ Test Central™ Research Team</li>
+                <li>Get your IQ Certificate</li>
+                <li>Get Detailed Performance Report</li>
+            </ul>
+        </div>
+        <div class="image">
+            <img src="brainpic.jpeg"  />
+        </div>
+    </main>
+</body>
+</html>
